@@ -84,7 +84,7 @@ sudo /Downloads/VBoxLinuxAdditions.run
 # Reboot to load the new kernel modules and drivers
 sudo reboot
 
-## ✅ Step 4 - Change Resultion from 800x800 using xrandr
+## ✅ Step 4 - Change Resultion from 800x600 using xrandr
 After iinstalling Guest Additions and rebooting, Kali still launched at a low default resolution of **800x600**, and full-screen mode did not immedietly work.
 
 To diagnose this, I queried the display server for available modes:
