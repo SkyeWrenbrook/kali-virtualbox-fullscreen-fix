@@ -40,9 +40,7 @@ After installing Kali Linux:
 
 - Resolution remained stuck at 800×600  
 
-- VM window stayed small on a high-resolution monitor  
-
-Example:
+- VM window stayed small on a high-resolution monitor. Example:
 <img width="800" height="600" alt="Screenshot_2026-01-24_22-48-11" src="https://github.com/user-attachments/assets/058d9f92-fa0b-4150-a42e-51f7e428e959" />
 
 ---
