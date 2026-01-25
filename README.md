@@ -73,7 +73,7 @@ This mounts a virtual ISO inside Kali that contains VirtualBox-specific drivers.
 After inserting the Guest Additions CD image, Kali automatically mounted the virtual ISO under '/Downloads/'.
 I navigated to the mounted directory and executed the installer script directly:
 
-'''bash
+
 # Locate the mounted Guest Additions ISO
 ls /Downloads/
 
