@@ -77,7 +77,7 @@ I navigated to the mounted directory and executed the installer script directly:
 ls /Downloads/
 
 # Run the installer script
-sudo /Downloads/VBoxLinuxAdditions.run
+sudo ./Downloads/VBoxLinuxAdditions.run
 
 # Reboot to load the new kernel modules and drivers
 sudo reboot
