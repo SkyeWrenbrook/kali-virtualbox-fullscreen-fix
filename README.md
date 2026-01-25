@@ -65,7 +65,8 @@ This mounts a virtual ISO inside Kali that contains VirtualBox-specific drivers.
 
 ![Guest Additions CD](images/guest-additions-cd.png)
 
-<img width="800" height="600" alt="Screenshot_2026-01-24_23-06-24" src="https://github.com/user-attachments/assets/be21a63c-2623-48fa-95db-446367889aa1" /> (Guest Additions successfuly inserted the CD See VBox_GAs_...Icon)
+<img width="800" height="600" alt="Screenshot_2026-01-24_23-06-24" src="https://github.com/user-attachments/assets/be21a63c-2623-48fa-95db-446367889aa1" /> 
+(Guest Additions successfuly inserted the CD See VBox_GAs_...Icon)
 
 ---
 
