@@ -85,12 +85,10 @@ sudo reboot
 ## ✅ Step 4 - Change Resultion from 800x600 using xrandr
 After installing Guest Additions and rebooting, Kali still launched at a low default resolution of **800x600**, and full-screen mode did not immedietly work.
 
-To diagnose this, I queried the display server for available modes using xrandr
+To diagnose this, I used xrandr to list the display server's available modes.
 <img width="1920" height="1080" alt="Screenshot_2026-01-24_23-14-23" src="https://github.com/user-attachments/assets/91c88343-9ba4-43d0-acec-08e591e1baa1" />
 
 I manually switched to a higher resolution:
-'''bash
-xrandr --output Virtual-1 --mode 1920x1080
 <img width="1920" height="1080" alt="Screenshot_2026-01-24_23-14-42" src="https://github.com/user-attachments/assets/d258412d-b578-45d1-a29a-62645bc988c2" />
 
 Once the display resized successfully, enabling
