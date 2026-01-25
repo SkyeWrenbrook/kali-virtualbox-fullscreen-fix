@@ -10,9 +10,9 @@ During troubleshooting, VirtualBox was configured with only **16 MB of video mem
 
 Even after installing Guest Additions and loading the correct kernel modules (`vboxvideo` and `vboxguest`), Kali continued to boot into a low 800×600 display mode. 
 
-Increasing the VM’s video memory to **128 MB** unlocked high-resolution display modes and allowed the X server to properly switch resolutions once prompted via
+Increasing the VM’s video memory to **128 MB** unlocked high-resolution display modes and allowed the X server to properly switch resolutions once prompted via `xrandr`. 
 
-`xrandr`. This change was a critical prerequisite for enabling full-screen mode and automatic display resizing.
+This change was a critical prerequisite for enabling full-screen mode and automatic display resizing.
 
 ---
 
