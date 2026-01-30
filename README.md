@@ -114,7 +114,9 @@ xrandr --output Virtual-1 --mode 1920x1080 to the end of the file using nano ~/.
 Save and exit:
 
 CTRL + O
+
 Enter
+
 CTRL + X
 
 Log out and back in — your screen should resize automatically.
