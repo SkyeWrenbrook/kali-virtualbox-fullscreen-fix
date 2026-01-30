@@ -96,9 +96,9 @@ View -> Auto-resize Guest Display allowed the VM to dynamically adjust to full s
 
 <img width="1920" height="1080" alt="Screenshot_2026-01-24_23-45-11" src="https://github.com/user-attachments/assets/69241359-86c0-4b42-8eee-d10ef9a015dd" />
 
-## ✅ Persistent Resolution Fix on Login
+## ✅ Automated Resolution Fix on Login
 Problem
-After rebooting the VM, the screen resolution woudl revert to 800x600 and required manually running the xrandr command in the terminal each time.
+After rebooting the VM, the screen resolution would revert to 800x600 and required manually running the xrandr command in the terminal each time.
 
 Solution
 To automate this fix, the display configuration command was added to the user's login profile so it executes automatically when you log into your desktop environment.
@@ -106,7 +106,7 @@ To automate this fix, the display configuration command was added to the user's 
 The following file was modified: ~/.profile
 
 Added command:
-xrandr --output Virtual-1 --mode 1920x1080 to the end of the file using the command: nano ~/.profile
+xrandr --output Virtual-1 --mode 1920x1080 to the end of the file using nano ~/.profile
 
 Save and exit:
 
